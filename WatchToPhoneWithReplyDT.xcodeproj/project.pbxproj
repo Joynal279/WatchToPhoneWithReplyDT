@@ -16,6 +16,10 @@
 		F2DF861E2A6EE28900156CA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF861D2A6EE28900156CA3 /* ContentView.swift */; };
 		F2DF86202A6EE28C00156CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DF861F2A6EE28C00156CA3 /* Assets.xcassets */; };
 		F2DF86232A6EE28C00156CA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DF86222A6EE28C00156CA3 /* Preview Assets.xcassets */; };
+		F2DF862E2A6EE2A200156CA3 /* PhoneVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF862D2A6EE2A200156CA3 /* PhoneVM.swift */; };
+		F2DF86302A6EE2AE00156CA3 /* WatchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF862F2A6EE2AE00156CA3 /* WatchVM.swift */; };
+		F2DF86322A6EE2C000156CA3 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF86312A6EE2C000156CA3 /* Bookmark.swift */; };
+		F2DF86332A6EE2C000156CA3 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF86312A6EE2C000156CA3 /* Bookmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,9 @@
 		F2DF861D2A6EE28900156CA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2DF861F2A6EE28C00156CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DF86222A6EE28C00156CA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2DF862D2A6EE2A200156CA3 /* PhoneVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVM.swift; sourceTree = "<group>"; };
+		F2DF862F2A6EE2AE00156CA3 /* WatchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchVM.swift; sourceTree = "<group>"; };
+		F2DF86312A6EE2C000156CA3 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +105,8 @@
 				F2DF860B2A6EE28600156CA3 /* ContentView.swift */,
 				F2DF860D2A6EE28900156CA3 /* Assets.xcassets */,
 				F2DF860F2A6EE28900156CA3 /* Preview Content */,
+				F2DF862D2A6EE2A200156CA3 /* PhoneVM.swift */,
+				F2DF86312A6EE2C000156CA3 /* Bookmark.swift */,
 			);
 			path = WatchToPhoneWithReplyDT;
 			sourceTree = "<group>";
@@ -117,6 +126,7 @@
 				F2DF861D2A6EE28900156CA3 /* ContentView.swift */,
 				F2DF861F2A6EE28C00156CA3 /* Assets.xcassets */,
 				F2DF86212A6EE28C00156CA3 /* Preview Content */,
+				F2DF862F2A6EE2AE00156CA3 /* WatchVM.swift */,
 			);
 			path = "WatchToPhoneWithReplyDT Watch App";
 			sourceTree = "<group>";
@@ -231,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DF862E2A6EE2A200156CA3 /* PhoneVM.swift in Sources */,
 				F2DF860C2A6EE28600156CA3 /* ContentView.swift in Sources */,
 				F2DF860A2A6EE28600156CA3 /* WatchToPhoneWithReplyDTApp.swift in Sources */,
+				F2DF86322A6EE2C000156CA3 /* Bookmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +254,8 @@
 			files = (
 				F2DF861E2A6EE28900156CA3 /* ContentView.swift in Sources */,
 				F2DF861C2A6EE28900156CA3 /* WatchToPhoneWithReplyDTApp.swift in Sources */,
+				F2DF86302A6EE2AE00156CA3 /* WatchVM.swift in Sources */,
+				F2DF86332A6EE2C000156CA3 /* Bookmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +410,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.5;
 			};
 			name = Debug;
 		};
@@ -427,7 +441,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.5;
 			};
 			name = Release;
 		};
